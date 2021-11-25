@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #00e97c;
+    --light-color: #ecf4ee;
+    --dark-color: #17211b;
+    --dark-secondary-color: #2c3d2e;
+}
+
+body {
+    background-color: var(--dark-color) !important;
+}
+
+nav.border-primary {
+    border-color: var(--dark-secondary-color) !important;
+}
+
+.nav-item a.border-primary {
+    border-color: var(--dark-secondary-color) !important;
+}
+
+.search {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.rounded-carousel {
+    border-radius: 25px !important;
+}
+
+.card {
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.card img {
+    border-radius: 20px !important;
+    filter: brightness(0.5);
+}
+
+.carousel-item img {
+    filter: brightness(0.7);
+}
