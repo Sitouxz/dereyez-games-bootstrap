@@ -1,8 +1,15 @@
 :root {
     --primary-color: #00e97c;
     --light-color: #ecf4ee;
-    --dark-color: #17211b;
+    --dark-color: #0e1411;
     --dark-secondary-color: #2c3d2e;
+}
+
+.bg-my-dark-secondary {
+    background-color: var(--dark-secondary-color) !important;
+}
+.my-dark-secondary {
+    color: var(--dark-secondary-color) !important;
 }
 
 body {
